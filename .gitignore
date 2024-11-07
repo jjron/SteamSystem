@@ -23,6 +23,10 @@
 # Ignore RiderLink plugin files
 /Plugins/Developer/RiderLink/**
 
+# Ignore multiplayer plugin binaries and intermediate
+/Plugins/MultiplayerSessions/Binaries/**
+/Plugins/MultiplayerSessions/Intermediate/**
+
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
